@@ -1,0 +1,270 @@
+2018-01-04 11:08:41 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_site_multi` WHERE bindhost = :bindhost<hr/>Params: <br/>array (
+  ':bindhost' => '0746online.ezcx.net',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_site_multi' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /index.php; line: 9; <br />
+
+2018-01-04 11:08:59 SQL Error :
+------------
+String:
+SQL: <br/>DELETE FROM`ims_users_failed_login` WHERE lastupdate < :timestamp<hr/>Params: <br/>array (
+  ':timestamp' => 1515035039,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/function/pdo.func.php; line: 31; <br />file: /web/source/user/login.ctrl.php; line: 19; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:08:59 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users_failed_login` WHERE `username` =  :__username AND `ip` =  :__ip  LIMIT 1<hr/>Params: <br/>array (
+  ':__username' => 'admin',
+  ':__ip' => '119.123.42.140',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/function/pdo.func.php; line: 49; <br />file: /web/source/user/login.ctrl.php; line: 20; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:08:59 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users`  WHERE 1  AND `username`=:username LIMIT 1<hr/>Params: <br/>array (
+  ':username' => 'admin',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /framework/model/user.mod.php; line: 100; <br />file: /web/source/user/login.ctrl.php; line: 42; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:08:59 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_users_failed_login` SET `ip` =  :ip , `username` =  :username , `count` =  :count , `lastupdate` =  :lastupdate<hr/>Params: <br/>array (
+  ':ip' => '119.123.42.140',
+  ':username' => 'admin',
+  ':count' => '1',
+  ':lastupdate' => 1515035339,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /web/source/user/login.ctrl.php; line: 86; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:09:10 SQL Error :
+------------
+String:
+SQL: <br/>DELETE FROM`ims_users_failed_login` WHERE lastupdate < :timestamp<hr/>Params: <br/>array (
+  ':timestamp' => 1515035049,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/function/pdo.func.php; line: 31; <br />file: /web/source/user/login.ctrl.php; line: 19; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:09:10 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users_failed_login` WHERE `username` =  :__username AND `ip` =  :__ip  LIMIT 1<hr/>Params: <br/>array (
+  ':__username' => '123456',
+  ':__ip' => '119.123.42.140',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/function/pdo.func.php; line: 49; <br />file: /web/source/user/login.ctrl.php; line: 20; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:09:10 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users`  WHERE 1  AND `username`=:username LIMIT 1<hr/>Params: <br/>array (
+  ':username' => '123456',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /framework/model/user.mod.php; line: 100; <br />file: /web/source/user/login.ctrl.php; line: 42; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:09:10 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_users_failed_login` SET `ip` =  :ip , `username` =  :username , `count` =  :count , `lastupdate` =  :lastupdate<hr/>Params: <br/>array (
+  ':ip' => '119.123.42.140',
+  ':username' => '123456',
+  ':count' => '1',
+  ':lastupdate' => 1515035349,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /web/source/user/login.ctrl.php; line: 86; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:09:22 SQL Error :
+------------
+String:
+SQL: <br/>DELETE FROM`ims_users_failed_login` WHERE lastupdate < :timestamp<hr/>Params: <br/>array (
+  ':timestamp' => 1515035062,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/function/pdo.func.php; line: 31; <br />file: /web/source/user/login.ctrl.php; line: 19; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:09:22 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users_failed_login` WHERE `username` =  :__username AND `ip` =  :__ip  LIMIT 1<hr/>Params: <br/>array (
+  ':__username' => '123456',
+  ':__ip' => '119.123.42.140',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/function/pdo.func.php; line: 49; <br />file: /web/source/user/login.ctrl.php; line: 20; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:09:22 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users`  WHERE 1  AND `username`=:username LIMIT 1<hr/>Params: <br/>array (
+  ':username' => '123456',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /framework/model/user.mod.php; line: 100; <br />file: /web/source/user/login.ctrl.php; line: 42; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:09:22 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_users_failed_login` SET `ip` =  :ip , `username` =  :username , `count` =  :count , `lastupdate` =  :lastupdate<hr/>Params: <br/>array (
+  ':ip' => '119.123.42.140',
+  ':username' => '123456',
+  ':count' => '1',
+  ':lastupdate' => 1515035362,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /web/source/user/login.ctrl.php; line: 86; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:10:43 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_site_multi` WHERE bindhost = :bindhost<hr/>Params: <br/>array (
+  ':bindhost' => '0746online.ezcx.net',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_site_multi' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /index.php; line: 9; <br />
+
+2018-01-04 11:10:55 SQL Error :
+------------
+String:
+SQL: <br/>DELETE FROM`ims_users_failed_login` WHERE lastupdate < :timestamp<hr/>Params: <br/>array (
+  ':timestamp' => 1515035155,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/function/pdo.func.php; line: 31; <br />file: /web/source/user/login.ctrl.php; line: 19; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:10:55 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users_failed_login` WHERE `username` =  :__username AND `ip` =  :__ip  LIMIT 1<hr/>Params: <br/>array (
+  ':__username' => '123456',
+  ':__ip' => '119.123.42.140',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/function/pdo.func.php; line: 49; <br />file: /web/source/user/login.ctrl.php; line: 20; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:10:55 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users`  WHERE 1  AND `username`=:username LIMIT 1<hr/>Params: <br/>array (
+  ':username' => '123456',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /framework/model/user.mod.php; line: 100; <br />file: /web/source/user/login.ctrl.php; line: 42; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:10:55 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_users_failed_login` SET `ip` =  :ip , `username` =  :username , `count` =  :count , `lastupdate` =  :lastupdate<hr/>Params: <br/>array (
+  ':ip' => '119.123.42.140',
+  ':username' => '123456',
+  ':count' => '1',
+  ':lastupdate' => 1515035455,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /web/source/user/login.ctrl.php; line: 86; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:11:05 SQL Error :
+------------
+String:
+SQL: <br/>DELETE FROM`ims_users_failed_login` WHERE lastupdate < :timestamp<hr/>Params: <br/>array (
+  ':timestamp' => 1515035165,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/function/pdo.func.php; line: 31; <br />file: /web/source/user/login.ctrl.php; line: 19; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:11:05 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users_failed_login` WHERE `username` =  :__username AND `ip` =  :__ip  LIMIT 1<hr/>Params: <br/>array (
+  ':__username' => 'admin',
+  ':__ip' => '119.123.42.140',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/function/pdo.func.php; line: 49; <br />file: /web/source/user/login.ctrl.php; line: 20; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:11:05 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users`  WHERE 1  AND `username`=:username LIMIT 1<hr/>Params: <br/>array (
+  ':username' => 'admin',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /framework/model/user.mod.php; line: 100; <br />file: /web/source/user/login.ctrl.php; line: 42; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:11:05 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_users_failed_login` SET `ip` =  :ip , `username` =  :username , `count` =  :count , `lastupdate` =  :lastupdate<hr/>Params: <br/>array (
+  ':ip' => '119.123.42.140',
+  ':username' => 'admin',
+  ':count' => '1',
+  ':lastupdate' => 1515035465,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /web/source/user/login.ctrl.php; line: 86; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:12:47 SQL Error :
+------------
+String:
+SQL: <br/>DELETE FROM`ims_users_failed_login` WHERE lastupdate < :timestamp<hr/>Params: <br/>array (
+  ':timestamp' => 1515035267,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/function/pdo.func.php; line: 31; <br />file: /web/source/user/login.ctrl.php; line: 19; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:12:47 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users_failed_login` WHERE `username` =  :__username AND `ip` =  :__ip  LIMIT 1<hr/>Params: <br/>array (
+  ':__username' => 'admin',
+  ':__ip' => '119.123.42.140',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/function/pdo.func.php; line: 49; <br />file: /web/source/user/login.ctrl.php; line: 20; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:12:47 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users`  WHERE 1  AND `username`=:username LIMIT 1<hr/>Params: <br/>array (
+  ':username' => 'admin',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /framework/model/user.mod.php; line: 100; <br />file: /web/source/user/login.ctrl.php; line: 42; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:12:47 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_users_failed_login` SET `ip` =  :ip , `username` =  :username , `count` =  :count , `lastupdate` =  :lastupdate<hr/>Params: <br/>array (
+  ':ip' => '119.123.42.140',
+  ':username' => 'admin',
+  ':count' => '1',
+  ':lastupdate' => 1515035567,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /web/source/user/login.ctrl.php; line: 86; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:13:30 SQL Error :
+------------
+String:
+SQL: <br/>DELETE FROM`ims_users_failed_login` WHERE lastupdate < :timestamp<hr/>Params: <br/>array (
+  ':timestamp' => 1515035310,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/function/pdo.func.php; line: 31; <br />file: /web/source/user/login.ctrl.php; line: 19; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:13:30 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users_failed_login` WHERE `username` =  :__username AND `ip` =  :__ip  LIMIT 1<hr/>Params: <br/>array (
+  ':__username' => 'admin',
+  ':__ip' => '119.123.42.140',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/function/pdo.func.php; line: 49; <br />file: /web/source/user/login.ctrl.php; line: 20; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:13:30 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users`  WHERE 1  AND `username`=:username LIMIT 1<hr/>Params: <br/>array (
+  ':username' => 'admin',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /framework/model/user.mod.php; line: 100; <br />file: /web/source/user/login.ctrl.php; line: 42; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:13:30 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_users_failed_login` SET `ip` =  :ip , `username` =  :username , `count` =  :count , `lastupdate` =  :lastupdate<hr/>Params: <br/>array (
+  ':ip' => '119.123.42.140',
+  ':username' => 'admin',
+  ':count' => '1',
+  ':lastupdate' => 1515035610,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /web/source/user/login.ctrl.php; line: 86; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:43:32 SQL Error :
+------------
+String:
+SQL: <br/>DELETE FROM`ims_users_failed_login` WHERE lastupdate < :timestamp<hr/>Params: <br/>array (
+  ':timestamp' => 1515037112,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/function/pdo.func.php; line: 31; <br />file: /web/source/user/login.ctrl.php; line: 19; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:43:32 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users_failed_login` WHERE `username` =  :__username AND `ip` =  :__ip  LIMIT 1<hr/>Params: <br/>array (
+  ':__username' => 'admin',
+  ':__ip' => '119.123.42.140',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/class/db.class.php; line: 228; <br />file: /framework/function/pdo.func.php; line: 49; <br />file: /web/source/user/login.ctrl.php; line: 20; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:43:32 SQL Error :
+------------
+String:
+SQL: <br/>SELECT * FROM `ims_users`  WHERE 1  AND `username`=:username LIMIT 1<hr/>Params: <br/>array (
+  ':username' => 'admin',
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 168; <br />file: /framework/function/pdo.func.php; line: 40; <br />file: /framework/model/user.mod.php; line: 100; <br />file: /web/source/user/login.ctrl.php; line: 42; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
+2018-01-04 11:43:32 SQL Error :
+------------
+String:
+SQL: <br/>INSERT INTO `ims_users_failed_login` SET `ip` =  :ip , `username` =  :username , `count` =  :count , `lastupdate` =  :lastupdate<hr/>Params: <br/>array (
+  ':ip' => '119.123.42.140',
+  ':username' => 'admin',
+  ':count' => '1',
+  ':lastupdate' => 1515037412,
+)<hr/>SQL Error: <br/>Table 'kydhealth.ims_users_failed_login' doesn't exist<hr/>Traces: <br/>file: /framework/class/db.class.php; line: 116; <br />file: /framework/class/db.class.php; line: 286; <br />file: /framework/function/pdo.func.php; line: 71; <br />file: /web/source/user/login.ctrl.php; line: 86; <br />file: /web/source/user/login.ctrl.php; line: 9; <br />file: /web/index.php; line: 184; <br />
+
